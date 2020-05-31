@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Throwback</title>
+  <!-- <link href="style.scss" rel="stylesheet" type="text/css" /> -->
+  <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="col-md-2"></div>
+  <div class="col-md-8" align="center">
+    <div class="row">
+      &nbsp;
+    </div>
+    <div>
+      <!-- <div class="row" onClick="red_butt()">
+        <img width="100" src="images/red-button.png" />
+      </div> -->
+      <div class="row">
+        <h2>Steps</h2>
+      </div>
+      <div class="row">
+        <a href="https://play.google.com/store/apps/details?id=com.google.earth&hl=en_IN">
+          <h4>1. Install from here</h4>
+        </a>
+      </div>
+      <div class="row" onClick="toggle()">
+        <h4>2. Call me</h4>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2"></div>
+  <br />
+  <div class="row" id="list" style="display: none;">
+    <div class="col-md-4 col-xs-3"></div>
+    <div class="col-md-4 col-xs-6">
+      <div class="table-striped" text-align="center">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>What</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/25.64398963,85.10214008/">
+                  Location 1
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/25.60475504,85.08112473/">
+                  Location 2
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/25.60097778,85.1639002/">
+                  Location 3
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/17.4427406,78.3553024/">
+                  Location 4
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/15.3910762,73.878664/">
+                  Location 5
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/13.1987643,77.70918187/">
+                  Location 6
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/13.0668573,77.5021338/">
+                  Location 7
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/12.89672259,74.8356052/">
+                  Location 8
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/13.0103454,74.7886508/">
+                  Location 9
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/12.872,74.852/">
+                  Location 10
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/28.63452738,77.21752202/">
+                  Location 11
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/41.42249945,2.118611/">
+                  Location 12
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://earth.google.com/web/search/32.0970523,77.1499096/">
+                  Location 13
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-xs-3"></div>
+  </div>
+</body>
+<script>
+
+  function toggle() {
+    var x = document.getElementById("list");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+
+</html>
